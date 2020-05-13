@@ -1,0 +1,21 @@
+In order to run the app, you must cover the pre-requisites.
+They are: Python, VirtualEnvironment, CockroachDB.
+
+(Please note that the shell script is not tested on multiple machines, 
+so I make no guarantee it will work 100% correctly)
+
+To start the server, please run 'run.sh'.
+
+Please note that the first time you run the file, it will download all the
+dependencies.
+
+So, to actually start the server, you will need to run the file a second time.
+
+Each consecutive execution will run the application, as long as
+you don't delete the folder called 'cockroach_folder'.
+
+To shut down the app, use Ctrl + C.
+
+
+
+To run the unit tests, please execute   test.py
